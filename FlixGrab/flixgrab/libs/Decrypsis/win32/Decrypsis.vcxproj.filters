@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{08b6eebb-b928-4e8c-a7bf-f7f49160ed8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4e14d335-6de5-4423-83b2-a277ed23d4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipc">
+      <UniqueIdentifier>{fee7542f-4035-4c20-8a95-25d9a2018f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d8a8498b-c876-41e9-8bb1-fe5a2aca0791}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\buffer_pooling.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cdm_proxy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\decrypt_provider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process_injector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\video_frame_container.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\widevine_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\widevine_loader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ipc\client.cpp">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ipc\pipe.cpp">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ipc\server.cpp">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cdm_ipc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cdm_host.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file_io.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\decrypsis.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\buffer_pooling.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cdm_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\decrypt_provider.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\process_injector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\struct_strings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\video_frame_container.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\widevine_hook.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\widevine_loader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\abstract_service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\content_decryption_module.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\decrypt_protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\service_callback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\buffer_reader.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\buffer_writer.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\client.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\function.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\ipc.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\message.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\pipe.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\server.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\status.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\table.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\util.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc\value.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cdm_ipc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cdm_host.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\file_io.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\decrypsis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\content_decryption_module_export.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\content_decryption_module_ext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\content_decryption_module_proxy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stack_walk.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\resource\Decrypsis.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\resource\chrome.exe">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\src\resource\chrome.exe.sig">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

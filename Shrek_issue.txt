@@ -1,0 +1,13 @@
+Шрек: https://www.primevideo.com/detail/0LLAAZGFX5FFP6TRRBIS4VDF1X/
+Cdm error (2)
+
+Как Воспроизвести: 
+Выбираем видеотрек с самым лучшим разрешением - он последний в списке. Запускаем закачку. 
+Через некоторое время ошибка:
+[0] Host::OnSessionKeysChange session_id: C69FD147B9CA75EA75B7C0FDF52C771C | has_additional_usable_key: 0 | keys_info_count: 3
+ key_id: B770D5B4BB6B594DAF985845AAE9AA5F | key_status: OutputRestricted
+[0] Cdm::DecryptAndDecodeFrame Video Status: NoDecryptKey, data_size:20594, encryption_scheme:1 | key_id: BED4393F951747008BAA91AF96C6FCF2 | iv: 1580C91055D0BA610000000000000000
+
+Описание:
+Через некоторое время после начала закачки из недр CDM вызывается колбэк OnSessionKeysChange. 
+Тем самым сообщая о том, что у ключей поменялся статус и они вдруг стали невалидными.

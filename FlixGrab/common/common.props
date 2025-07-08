@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BasePath>$(SolutionDir)..\..</BasePath>
+    <BuildPath>$(BasePath)\..\builds</BuildPath>
+    <CommonPath>$(BasePath)\common</CommonPath>
+    <ThirdPartyPath>$(BasePath)\3rdparty</ThirdPartyPath>
+    <OpenSSLPath>$(BasePath)\3rdparty\openssl-1.0.2l\win32</OpenSSLPath>
+    <QTIcuPath>$(BasePath)\3rdparty\qticu</QTIcuPath>
+    <GoogleWideVinePath>$(BasePath)\3rdparty\widevinecdm</GoogleWideVinePath>
+    <MicrosoftRedistPathVS13>$(BasePath)\3rdparty\microsoft\x86\Microsoft.VC120.CRT</MicrosoftRedistPathVS13>
+    <MicrosoftRedistPathVS10>$(BasePath)\3rdparty\microsoft\x86\Microsoft.VC100.CRT</MicrosoftRedistPathVS10>
+    <QTDIR>$(BasePath)\3rdparty\qt-5.12.3</QTDIR>
+    <ProfitPath>$(ThirdPartyPath)\profit</ProfitPath>
+    <CommonPath>$(BasePath)\common</CommonPath>
+    <OpenSSLPath>$(ThirdPartyPath)\openssl-1.0.2g\win32</OpenSSLPath>
+    <FFMpegPath>$(ThirdPartyPath)\ffmpeg-4.2</FFMpegPath>
+    <LamePath>$(ThirdPartyPath)\lame-3.100</LamePath>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="BasePath">
+      <Value>$(BasePath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ThirdPartyDir">
+      <Value>$(ThirdPartyDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BuildPath">
+      <Value>$(BuildPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="QTIcuPath">
+      <Value>$(QTIcuPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GoogleWideVinePath">
+      <Value>$(GoogleWideVinePath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MicrosoftRedistPathVS13">
+      <Value>$(MicrosoftRedistPathVS13)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MicrosoftRedistPathVS10">
+      <Value>$(MicrosoftRedistPathVS10)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OpenSSLPath">
+      <Value>$(OpenSSLPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="QTDIR">
+      <Value>$(QTDIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ProfitPath">
+      <Value>$(ProfitPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CommonPath">
+      <Value>$(CommonPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ThirdPartyPath">
+      <Value>$(ThirdPartyPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LamePath">
+      <Value>$(LamePath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FFMpegPath">
+      <Value>$(FFMpegPath)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

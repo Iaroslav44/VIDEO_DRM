@@ -58,7 +58,7 @@ void Server::Run() {
 Status Server::ProcessInvoke()
 {
     bool            result = true;
-    Status status;
+    Status status = Status::kSuccess;
 
     ServerFunc      proc;
     uint32_t        msg = kMessage_Unknown;
@@ -83,6 +83,8 @@ Status Server::ProcessInvoke()
             if (proc) {
                 result &= writer.Pod(kMessage_Result);
                 result &= proc(reader, writer);
+                if (result)
+                    status = Status::kSuccess;
             }
             else {
                 std::cout << "Interproc server: No invoke procedure registered: " << proc_num << std::endl;
